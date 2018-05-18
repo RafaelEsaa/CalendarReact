@@ -1,0 +1,133 @@
+.background-header{
+	background-color: #3F3F3F;
+	padding: 50px 0px;
+}
+
+.title-banner-header{
+	padding-right: 8px;
+	font-size: 32px;
+	padding-bottom: 10px;
+}
+
+.input-select {
+	.select-location{
+		height: 3.2vw;
+		border-radius: 0px;
+	}
+}
+
+.row-filter{
+	border: 2px solid #ddd;
+	margin: 0px !important;
+	.padding-row-filter{
+		padding: 2px 0px;
+		.text-row-filter{
+			font-size: 24px;
+		}
+	}
+}
+
+.hidden{
+	display: none;
+}
+
+.dropdownSelect{
+	button{
+	    background: hsla(0,0%,100%,.9);
+	    font-size: 24px;
+	    border: solid #ddd;
+	    border-width: 0;
+		padding: 4px 12px;
+		cursor: pointer;
+	    &:after{
+			display: inline-block;
+		    width: 0;
+		    height: 0;
+		    margin-left: .255em;
+		    vertical-align: .255em;
+		    content: "";
+		    border-top: .3em solid;
+		    border-right: .3em solid transparent;
+		    border-left: .3em solid transparent;
+		    border-top: .3em solid #ddd;
+	    }
+	}
+	.show{
+    	position: absolute;
+	    padding: 20px 25px;
+	    min-width: 320px;
+	    margin-top: 10px;
+	    font-size: 24px;
+		background-color: white;
+		z-index: 2;
+	    .title{
+			color: black;
+			cursor: pointer;
+			z-index: 1;
+	    }
+    }
+}
+
+
+.dropdownMenu{
+	margin-left: 20px;
+	button{
+		background: hsla(0,0%,100%,.9);
+	    font-size: 24px;
+	    border: solid #ddd;
+	    border-width: 0;
+		padding: 10px 0px;
+		cursor: pointer;
+	    &:after{
+			display: inline-block;
+		    width: 0;
+		    height: 0;
+		    margin-left: .255em;
+		    vertical-align: .255em;
+		    content: "";
+		    border-top: .3em solid;
+		    border-right: .3em solid transparent;
+		    border-left: .3em solid transparent;
+		    border-top: .3em solid #ddd;
+		}
+		&:focus{
+			outline: none;
+		}
+	}
+	.show{
+    	position: absolute;
+	    padding: 20px 25px;
+	    min-width: 200px;
+	    border: 1px solid #ddd;
+	    
+		font-size: 24px;
+		z-index: 2;
+		background-color: white;
+	    .title{
+			color: black;
+			cursor: pointer;
+	    }
+    }
+}
+
+.padding-event-card{
+	padding-top: 70px;
+	&:hover{
+		.event-card{
+			background-color: #f7f7f7;
+			z-index: 1;
+		}
+		.title-post{
+			font-size: 25px;
+		}
+	}
+	.title-post{
+		font-size: 25px;
+	}
+	.learn-more{
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		top: 50%;
+	}
+}
